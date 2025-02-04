@@ -383,3 +383,26 @@ PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x
 [2025-02-04 20:59:37,260: INFO: common: created directory at: artifacts/data_ingestion]
 [2025-02-04 20:59:37,260: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/18oO3nPrMoL8-zzBLNiT3n38zDp6RvW1x/view?usp=sharing into file artifacts/data_ingestion/data.zip]
 [2025-02-04 20:59:46,672: INFO: _internal: 192.168.4.64 - - [04/Feb/2025 20:59:46] "GET /train HTTP/1.1" 200 -]
+[2025-02-04 22:10:30,570: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.4.64:8080]
+[2025-02-04 22:10:30,571: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-02-04 22:10:42,888: INFO: _internal: 192.168.4.64 - - [04/Feb/2025 22:10:42] "GET / HTTP/1.1" 200 -]
+[2025-02-04 22:10:43,916: INFO: _internal: 192.168.4.64 - - [04/Feb/2025 22:10:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2025-02-04 22:10:57,165: INFO: _internal: 192.168.4.64 - - [04/Feb/2025 22:10:57] "POST /predict HTTP/1.1" 200 -]
+[2025-02-04 22:18:27,508: INFO: _internal: 192.168.4.64 - - [04/Feb/2025 22:18:27] "GET / HTTP/1.1" 200 -]
+[2025-02-04 22:25:24,912: INFO: _internal: 192.168.4.64 - - [04/Feb/2025 22:25:24] "GET / HTTP/1.1" 200 -]
+[2025-02-04 22:25:37,072: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.4.64:8080]
+[2025-02-04 22:25:37,073: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-02-04 22:25:38,466: INFO: _internal: 192.168.4.64 - - [04/Feb/2025 22:25:38] "GET / HTTP/1.1" 200 -]
+[2025-02-04 22:26:28,044: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.4.64:8080]
+[2025-02-04 22:26:28,045: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-02-04 22:26:38,059: INFO: _internal: 192.168.4.64 - - [04/Feb/2025 22:26:38] "GET / HTTP/1.1" 200 -]
+[2025-02-04 22:26:54,223: INFO: _internal: 192.168.4.64 - - [04/Feb/2025 22:26:54] "POST /predict HTTP/1.1" 200 -]
